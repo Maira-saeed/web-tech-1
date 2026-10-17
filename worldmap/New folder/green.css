@@ -1,0 +1,96 @@
+
+body {
+    background-color: #e8f5e9;
+    margin: 0;
+    font-family: Arial;
+    color: #1b4332;
+}
+
+/* Header */
+#header {
+    background-color: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu */
+#menu {
+    background-color: #40916c;
+    text-align: center;
+    padding: 12px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+/* Main Area */
+#main {
+    text-align: center;
+    padding: 30px;
+    min-height: 400px;
+}
+
+#main h2 {
+    color: #1b4332;
+}
+
+/* Login and Registration Boxes */
+.login-box,
+.registration-box {
+    background-color: #d8f3dc;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid #40916c;
+}
+
+.login-box {
+    width: 350px;
+}
+
+.registration-box {
+    width: 450px;
+}
+
+/* Form Rows */
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 180px;
+    text-align: left;
+}
+
+/* Controls */
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    background-color: gray;
+    color: white;
+    padding: 8px;
+    border: 1px solid #1b4332;
+}
+
+/* Buttons */
+.buttons input {
+    background-color: gray;
+    color: white;
+    padding: 8px 20px;
+    margin: 5px;
+    border: 1px solid #1b4332;
+}
+
+/* Footer */
+#footer {
+    background-color: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
