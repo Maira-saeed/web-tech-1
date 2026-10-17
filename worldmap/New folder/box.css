@@ -19,19 +19,19 @@ body {
 #menu {
     background-color: #a5d6a7;
     border: 2px solid #388e3c;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     text-align: center;
-min-height: 300px;
-box-sizing: border-box;
 }
 
+/* Menu Links */
 #menu a {
     color: #1b5e20;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px 10px;
+    margin: 2px;
 }
 
 #menu a:hover {
