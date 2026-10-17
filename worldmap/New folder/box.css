@@ -18,10 +18,11 @@ body {
 /* Menu Box */
 #menu {
     background-color: #a5d6a7;
-    border: 2px solid #388e3c;
-    padding: 5px;
-    margin: 10px;
+    border: 1px solid #388e3c;
+    padding: 0;
+    margin: 5px 10px;
     text-align: center;
+    line-height: 1;
 }
 
 /* Menu Links */
@@ -30,8 +31,10 @@ body {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    padding: 5px 10px;
-    margin: 2px;
+    padding: 2px 6px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.2;
 }
 
 #menu a:hover {
