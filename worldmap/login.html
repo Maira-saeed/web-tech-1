@@ -1,0 +1,46 @@
+
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="header" id="header">
+        <h1>LOGIN PAGE</h1>
+    </div>
+
+    <div class="menu">
+        <button onclick="changeColor('blue')">Blue</button>
+        <button onclick="changeColor('green')">Green</button>
+        <button onclick="changeColor('yellow')">Yellow</button>
+    </div>
+
+    <div class="login-box" id="loginBox">
+
+        <h2>Login</h2>
+
+        <label>Login:</label>
+        <input type="text" id="username">
+
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+
+        <br><br>
+
+        <button onclick="login()">Login</button>
+
+        <p id="message"></p>
+
+    </div>
+
+    <div class="footer" id="footer">
+        <p>My Login Page</p>
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+</html>

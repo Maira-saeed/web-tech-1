@@ -1,0 +1,101 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EAF3FA;
+}
+
+.header {
+    background-color: #527DA8;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    background-color: white;
+}
+
+.menu button {
+    width: 33.33%;
+    padding: 13px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu button:nth-child(1) {
+    background-color: #D5E8F7;
+    color: #315C85;
+}
+
+.menu button:nth-child(2) {
+    background-color: #D9E9D7;
+    color: #426844;
+}
+
+.menu button:nth-child(3) {
+    background-color: #FFF0BF;
+    color: #80651C;
+}
+
+.menu button:hover {
+    opacity: 0.8;
+}
+
+.login-box {
+    width: 350px;
+    margin: 40px auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #F5FAFF;
+    border: 2px solid #527DA8;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.login-box h2 {
+    color: #315C85;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #EAF3FA;
+    border: 1px solid #527DA8;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 11px;
+    background-color: #527DA8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    opacity: 0.85;
+}
+
+.footer {
+    background-color: #527DA8;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+}
+
+#message {
+    font-weight: bold;
+}
